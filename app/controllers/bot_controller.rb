@@ -2,6 +2,6 @@ require 'telegram/bot'
 
 class BotController < ApplicationController
   def index
-		TelegramMessenger.start
-	end
+    TelegramMessenger.start
+  end
 end

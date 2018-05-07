@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'app/mailers/*'
+    - 'test/**/*'
+    - 'bin/**/*'
+    - 'config/*'
+    - 'config/initializers/**/*'
+    - 'config/environments/**/*'
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120

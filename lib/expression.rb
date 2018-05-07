@@ -1,8 +1,7 @@
 class Expression
-	MESSAGE = "Evaluate method not implemented"
+  MESSAGE = 'Evaluate method not implemented'.freeze
 
-	def evaluate(str)
-		raise MESSAGE
-	end
-
+  def evaluate(_str)
+    raise MESSAGE
+  end
 end
