@@ -1,5 +1,5 @@
 class SpecificUserExpression < Expression
-	SYNTAX = "/user"
+	SYNTAX = I18n.t "command.user"
 
 	def evaluate(str, bot, message)
 		if (str == SYNTAX) 

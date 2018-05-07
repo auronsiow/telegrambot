@@ -1,5 +1,5 @@
 class HelloExpression < Expression
-	SYNTAX = "/start"
+	SYNTAX = I18n.t "command.hello"
 
 	def evaluate(str, bot, message)
 		if (str == SYNTAX) 

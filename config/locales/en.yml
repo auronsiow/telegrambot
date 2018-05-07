@@ -31,3 +31,9 @@
 
 en:
   hello: "Hello world"
+  command: 
+    hello: "/start"
+    bye: "/bye"
+    user: "/user"
+    trello: "/trello"
+  expression_class: ["HelloExpression", "ByeExpression", "SpecificUserExpression", "TrelloExpression", "InvalidExpression"]
