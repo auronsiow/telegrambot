@@ -33,7 +33,14 @@ en:
   hello: "Hello world"
   command: 
     hello: "/start"
+    help: "/?"
     bye: "/bye"
     user: "/user"
     trello: "/trello"
-  expression_class: ["HelloExpression", "ByeExpression", "SpecificUserExpression", "TrelloExpression", "InvalidExpression"]
+  command_desc:
+    hello: "Saying hello with your name"
+    help: "List down all commands she can understand"
+    bye: "Saying goodbye with your name"
+    user: "Send a image to your Telegram chat"
+    trello: "Show list of bugs in Embark Trello"
+  expression_class: ["HelloExpression", "ByeExpression", "SpecificUserExpression", "TrelloExpression", "HelpExpression", "InvalidExpression"]

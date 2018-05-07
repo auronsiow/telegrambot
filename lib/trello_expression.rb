@@ -3,8 +3,8 @@ class TrelloExpression < Expression
 
 	def evaluate(str, bot, message)
 		if (str == SYNTAX) 
-			text = fetch_cards
 			bot.api.send_message(chat_id: message.chat.id, text: "Below are the existing bugs from Embark Trello:")
+			text = fetch_cards
 			bot.api.send_message(chat_id: message.chat.id, text: text, parse_mode: "Markdown")
 			true
 		else
