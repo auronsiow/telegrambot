@@ -1,5 +1,5 @@
 class ByeExpression < Expression
-  SYNTAX = I18n.t 'command.end'
+  SYNTAX = I18n.t 'command.bye'
 
   def evaluate(str, bot, message)
     if str == SYNTAX
